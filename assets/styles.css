@@ -805,3 +805,6 @@ p { margin: 0 0 1em; max-width: 34em; }
   .eval-case { grid-template-columns: 7fr 5fr; column-gap: 56px; align-items: end; }
 }
 @media (max-width: 540px) { .eval { padding: 88px 0 80px; } .eval-media { max-width: 78%; margin: 0 auto; } }
+/* 聯絡頁：地主表單優先，專業夥伴另有入口；收尾資訊只剩電話與服務範圍 */
+.contact-switch { margin: 28px 0 0; font-size: 0.9375rem; color: var(--ink-2); text-align: center; }
+@media (min-width: 960px) { .closing-info { grid-template-columns: repeat(2, minmax(0,1fr)); max-width: 760px; } }
